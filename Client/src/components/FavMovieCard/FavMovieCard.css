@@ -1,0 +1,39 @@
+
+.card {
+  align-content: center;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+
+
+
+.card-overlay {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  
+  color: white;
+  padding: 1rem;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.card:hover .card-overlay{
+  transform: translateY(0);
+}
+
+
+.star {
+  color: yellow;
+}
+ 
